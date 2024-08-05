@@ -80,7 +80,7 @@ An *instance store* provides temporary block-level storage for your instance. 
 
 - Standard Reserved Instance- you should know the EC2 instance type and size you need for your applications and in which AWS Region you plan to run them and you are required to state instance type and size, OS, tenancy (default or dedicated)
 - Convertible Reserved Instance- used if you need to run your EC2 instances in different Availability Zones or different instance types. You trade in a deeper discount when you require flexibility to run your EC2 instances and at the end of the term you can continue using the Amazon EC2 instance without interruption. However, you will now be charged On-Demand rates until you terminate the instance or purchase a new reserve instance matching the previous instance attributes
-
+![image](https://github.com/user-attachments/assets/9cdb5545-18bb-4e82-917f-0bc099b84ab9)
 ### EC2 Instance saving plans
 
 - Commitment Duration and Flexibility
@@ -91,10 +91,9 @@ An *instance store* provides temporary block-level storage for your instance. 
 - 1-year or 3-year term
 
 ### Spot instance
-![image](https://github.com/user-attachments/assets/9cdb5545-18bb-4e82-917f-0bc099b84ab9)
 
 - Interruptions are possible
-- %90 discount
+- 90% discount
 
 ### Dedicated host
 
