@@ -65,6 +65,8 @@ An *instance store* provides temporary block-level storage for your instance. 
 
 
 ## Amazon EC2 Pricing
+![image](https://github.com/user-attachments/assets/ca57aea6-6436-4324-b135-a2ea87674e90)
+
 
 ### On-Demand
 
@@ -73,6 +75,8 @@ An *instance store* provides temporary block-level storage for your instance. 
 - Pay-as-you-go pricing model
 
 ### Reserved instances
+
+![image](https://github.com/user-attachments/assets/ca7ce68f-4fbd-4e16-b4a2-8aa65e677369)
 
 - Standard Reserved Instance
 - Convertible Reserved Instance
@@ -87,6 +91,7 @@ An *instance store* provides temporary block-level storage for your instance. 
 - 1-year or 3-year term
 
 ### Spot instance
+![image](https://github.com/user-attachments/assets/9cdb5545-18bb-4e82-917f-0bc099b84ab9)
 
 - Interruptions are possible
 - %90 discount
@@ -100,6 +105,9 @@ An *instance store* provides temporary block-level storage for your instance. 
 - Instance Type Flexibility
 - Cost Predictability
 - Visibility and Reporting
+
+![image](https://github.com/user-attachments/assets/945b746f-ae63-4b36-85ca-1314a334933f)
+
 
 
 ## AWS Services
