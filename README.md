@@ -137,6 +137,7 @@ An *instance store* provides temporary block-level storage for your instance. 
 ## VPC
 
 - **Internet Gateway (IGW)**:
+    - Allows you to create a VPN connection between a private network, like your on-premises data center or internal corporate network to your VPC. This is used when a VPC has           internal private resources and we want to restrict access to these resources only to entities coming from an approved network
     - Connects a VPC to the internet.
     - Allows instances in the VPC to directly communicate with the internet.
     - Essential for a public subnet in a VPC to send/receive traffic to/from the internet.
@@ -223,6 +224,8 @@ An *instance store* provides temporary block-level storage for your instance. 
 
 **S3 Standard:**
 
+- Designed for frequently accessed data stored in a minimum of three Availability Zones. Due to its high availability for objects, it is a good choice for content distribution and 
+  data analytics. It has a higher cost than other storage classes intended for infrequently accessed data and archival storage
 - General-purpose storage class.
 - Provides high durability and fast data access.
 - Suitable for frequently accessed and frequently updated data.
@@ -231,6 +234,7 @@ An *instance store* provides temporary block-level storage for your instance. 
 
 **S3 Standard-Infrequent Access (S3 Standard-IA):**
 
+- Used for data that is accessed infrequently but requires rapid access when needed. It's a perfect place to store backups, disaster recovery files or any object that requires       long-term storage
 - Ideal for infrequently accessed data
 - Similar to Amazon S3 Standard but has a lower storage price and higher retrieval price
 - Requires a minimum storage duration of 30 days.
@@ -238,6 +242,8 @@ An *instance store* provides temporary block-level storage for your instance. 
 
 **S3 One Zone-Infrequent Access (S3 One Zone-IA):**
 
+- Unlike S3 Standard and S3 Standard-IA, which store data in a minimum of three Availability Zones, S3 One Zone-IA stores data in a single Availability Zone and is to be 
+  considered if you want to save costs on storage and you can easily reproduce your data in the event of an Availability Zone failure
 - Stores data in a single AWS Availability Zone for cost savings.
 - Suitable for less frequently accessed data.
 - Requires a minimum storage duration of 30 days.
@@ -245,11 +251,15 @@ An *instance store* provides temporary block-level storage for your instance. 
 
 **S3 Intelligent-Tiering:**
 
+- Amazon S3 monitors an objects access patterns and if it isn’t accessed for 30 consecutive days, Amazon S3 automatically moves it to the infrequent access tier which is S3 
+  Standard-IA. If you access an object in the S3 Standard-IA Amazon S3 automatically moves it to the frequent access tier which is S3 Standard
 - Ideal for data with unknown or changing access patterns
 - Requires a small monthly monitoring and automation fee per object
 
 **S3 Glacier Instant Retrieval:**
 
+- Retrieve objects stored in the S3 Glacier Instant Retrieval storage class within milliseconds, with the same performance as S3 Standard. Works well for archived data that 
+  requires immediate access
 - Used for archiving purposes.
 - Provides fast data retrieval but at a higher cost.
 - Works well for archived data that requires immediate access
@@ -257,11 +267,16 @@ An *instance store* provides temporary block-level storage for your instance. 
 
 **S3 Glacier Flexible Retrieval:**
 
+- Used to archive data that we need to be stored over a long period of time and doesn’t need to be retrieved very rapidly (1 minute to 12 hours). You can simply move data to it or 
+  create vaults and then populate them with archives. If you have compliance requirements around retaining data e.g. for a certain period of time, you can employ an S3 Glacier 
+  vault
 - Low-cost storage designed for data archiving
 - Able to retrieve objects within a few minutes to hours
 
 **S3 Glacier Deep Archive:**
 
+- Supports long-term retention and digital preservation for data that might be accessed once or twice in a year. The objects stored are replicated and stored across at least three 
+  geographically dispersed AZs and it’s the lowest-cost storage in the AWS Cloud
 - Lowest-cost archival storage class.
 - Suitable for long-term archiving and rarely accessed data.
 - Provides data retrieval within 12 to 48 hours.
