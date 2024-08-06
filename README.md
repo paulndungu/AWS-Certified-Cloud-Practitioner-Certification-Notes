@@ -520,6 +520,9 @@ IAM gives you the flexibility to configure access based on your company’s spec
 
 ![Image10](./images/img10.png)
 
+![image](https://github.com/user-attachments/assets/14ee71cb-d0e3-4692-a834-2ef3348d7dd0)
+
+
 ### Basic Support
 
 - **Customer Service and Communities** - 24x7 access to customer service, [documentation](https://docs.aws.amazon.com/), [whitepapers](https://aws.amazon.com/whitepapers/), and [AWS re:Post.](https://www.repost.aws/)
