@@ -412,6 +412,7 @@ IAM gives you the flexibility to configure access based on your company’s spec
 - Block IP Addresses
 - SQL Injection
 - Provides protection at Layer 7
+![image](https://github.com/user-attachments/assets/76a4b0ca-192c-48fe-83db-c96f253662d0)
 
 ## Layers
 
@@ -433,7 +434,6 @@ IAM gives you the flexibility to configure access based on your company’s spec
 - Enables automated actions based on defined alarms.
 - Amazon CloudWatch logs are encrypted by default using AWS Key Management Service (KMS).
 - CloudWatch Logs allows you to collect and store logs from your AWS infrastructure in a central location, Logs Streams represent source-based sequential streams of these logs. CloudWatch Logs Insights is a query and analysis tool that makes it easier for you to dive deeper into these logs and analyze them.
-![image](https://github.com/user-attachments/assets/76a4b0ca-192c-48fe-83db-c96f253662d0)
 
 
 ## AWS CloudTrail
