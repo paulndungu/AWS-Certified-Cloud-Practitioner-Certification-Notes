@@ -721,13 +721,15 @@ AWS Marketplace is a digital catalog that includes thousands of software listing
 - Amazon **Comprehend** is a natural language processing (NLP) service offered by Amazon Web Services (AWS). This service analyzes text data, making it easy to gain in-depth information about content and use this data in various applications
 - **Amazon Kendra** is a machine learning-powered enterprise search service from AWS. This service allows companies to easily discover their content through natural language searches.
 
-## **The AWS Well-Architected Framework**
+## **The AWS Well-Architected Pillars Framework**
 
 ![Image13](./images/img13.png)
 
 ### Operational excellence
 
-- The operational excellence pillar includes the ability to run and monitor systems to deliver business value and to continually improve supporting processes and procedures.
+- The operational excellence pillar includes the ability to run and monitor systems to deliver business value and to continually 
+improve supporting processes and procedures. Key topics include automating changes, responding to events, and defining standards 
+to manage daily operations.
 - Perform operations as code
 - Make frequent, small, reversible changes
 - Refine operations procedures frequently
@@ -738,7 +740,7 @@ AWS Marketplace is a digital catalog that includes thousands of software listing
 ### Security
 
 
-- The security pillar includes the ability to protect information, systems, and assets while delivering business value through risk assessments and mitigation strategies.
+- The security pillar includes the ability to protect information, systems, and assets while delivering business value through risk assessments and mitigation strategies. Key topics include confidentiality and integrity of data, managing user permissions, and establishing controls to detect security events.
 - Implement a strong identity foundation
 - Enable traceability
 - Apply security at all layers
@@ -749,7 +751,7 @@ AWS Marketplace is a digital catalog that includes thousands of software listing
 
 ### Reliability
 
-- The reliability pillar includes the ability of a system to recover from infrastructure or service disruptions, dynamically acquire computing resources to meet demand, and mitigate disruptions such as misconfigurations or transient network issues.
+- The reliability pillar includes the ability of a system to recover from infrastructure or service disruptions, dynamically acquire computing resources to meet demand, and mitigate disruptions such as misconfigurations or transient network issues. Key topics include distributed system design, recovery planning, and adapting to changing requirements.
 - Recover from infrastructure or service disruptions
 - Dynamically acquire computing resources to meet demand
 - Mitigate disruptions such as misconfigurations or transient network issues
@@ -761,7 +763,7 @@ AWS Marketplace is a digital catalog that includes thousands of software listing
 
 ### Performance Efficiency
 
-- The performance efficiency pillar includes the ability to use computing resources efficiently to meet system requirements. Key topics include selecting the right resource types and sizes based on workload requirements, monitoring performance, and making informed decisions to maintain efficiency as business needs evolve.
+- The performance efficiency pillar includes the ability to use computing resources efficiently to meet system requirements. Key topics include selecting the right resource types and sizes based on workload requirements, monitoring performance, and making informed decisions to maintain efficiency as business needs evolve. Key topics include selecting resource types and sizes optimized for workload requirements, monitoring performance, and maintaining efficiency as business needs evolve.
 - Architecture includes experimenting more often
 - Using serverless architectures
 - Designing systems to be able to go global in minutes
@@ -770,7 +772,7 @@ AWS Marketplace is a digital catalog that includes thousands of software listing
 
 ### Cost Optimization
 
-- The cost optimization pillar includes the ability to avoid or eliminate unneeded cost or sub-optimal resources.
+- The cost optimization pillar includes the ability to avoid or eliminate unneeded cost or sub-optimal resources. Key topics include understanding spending over time and controlling fund allocation, selecting resources of the right type and quantity, and scaling to meet business needs without overspending.
 - Adopt a consumption model
 - Analyzing and attributing expenditure
 - Using managed services to reduce the cost of ownership
@@ -778,7 +780,7 @@ AWS Marketplace is a digital catalog that includes thousands of software listing
 
 ### Sustainability
 
-- The discipline of sustainability addresses the long-term environmental, economic, and societal impact of your business activities. Your business or organization can have negative environmental impacts like direct or indirect carbon emissions, unrecyclable waste, and damage to shared resources like clean water. When building cloud workloads, the practice of sustainability is understanding the impacts of the services used, quantifying impacts through the entire workload lifecycle, and applying design principles and best practices to reduce these impacts.
+- The discipline of sustainability addresses the long-term environmental, economic, and societal impact of your business activities. Your business or organization can have negative environmental impacts like direct or indirect carbon emissions, unrecyclable waste, and damage to shared resources like clean water. When building cloud workloads, the practice of sustainability is understanding the impacts of the services used, quantifying impacts through the entire workload lifecycle, and applying design principles and best practices to reduce these impacts. Key topics include a shared responsibility model for sustainability, understanding impact, and maximizing utilization to minimize required resources and reduce downstream impacts. 
 - Understand your impact
 - Establish sustainability goals
 - Maximize utilization
