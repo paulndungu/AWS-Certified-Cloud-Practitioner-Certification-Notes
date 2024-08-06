@@ -412,6 +412,7 @@ IAM gives you the flexibility to configure access based on your company’s spec
 - Block IP Addresses
 - SQL Injection
 - Provides protection at Layer 7
+
 ![image](https://github.com/user-attachments/assets/76a4b0ca-192c-48fe-83db-c96f253662d0)
 
 ## Layers
@@ -442,6 +443,9 @@ IAM gives you the flexibility to configure access based on your company’s spec
 - Records API calls and actions made within your account.
 - Provides a trail of events for security and compliance analysis.
 - Helps in tracking changes, identifying potential security risks, and troubleshooting.
+
+![image](https://github.com/user-attachments/assets/1598b7ae-fd0b-4296-8d7b-b4063768112b)
+
 
 ## AWS Trusted Advisor
 
