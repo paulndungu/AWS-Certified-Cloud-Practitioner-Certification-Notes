@@ -1054,6 +1054,8 @@ AWS customers are allowed to carry out security assessments and penetration test
 9. AWS AppRunner
 10. AWS Fargate (ECS ve EKS için serverless compute seçeneği)
 
+![image](https://github.com/user-attachments/assets/737529d9-13ec-4bfb-b89a-e5b5285f3fe0)
+
 ## AWS CodeCommit
 
 - Private Git based repository service.
