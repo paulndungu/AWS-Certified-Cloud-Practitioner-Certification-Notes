@@ -714,9 +714,9 @@ AWS Marketplace is a digital catalog that includes thousands of software listing
 
 ## AWS AI
 
-- Get code recommendations while writing code and identify security issues in your code with Amazon CodeWhisperer.
-- Convert speech to text with Amazon Transcribe.
-- Identify potentially fraudulent online activities with Amazon Fraud Detector.
+- Amazon CodeWhisperer ⇒ Get code recommendations while writing code and identify security issues in your code.
+- Amazon Transcribe ⇒ Convert speech to text.
+- Amazon Fraud Detector ⇒ Identify potentially fraudulent online activities.
 - Amazon Lex ⇒ Build voice and text chatbots
 - Amazon Polly ⇒ Text to Speech
 - Amazon Personalize ⇒ Allows developers to quickly build and deploy curated recommendations and intelligent user segmentation at scale using machine learning (ML).
