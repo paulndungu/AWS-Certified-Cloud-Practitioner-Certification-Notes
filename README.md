@@ -825,6 +825,9 @@ to manage daily operations.
 - Allows reviewing historical configuration history.
 - Accessed via AWS Management Console, AWS CLI, or SDKs.
 - Generates configuration history reports for the desired time interval.
+- Automates:
+  ![image](https://github.com/user-attachments/assets/83f7d2ec-75c7-45da-b7b7-1284bc33fec0)
+
 
 
 ## AWS CloudEndure
