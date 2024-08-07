@@ -720,7 +720,7 @@ AWS Marketplace is a digital catalog that includes thousands of software listing
 - Amazon Fraud Detector ⇒ Identify potentially fraudulent online activities.
 - Amazon Lex ⇒ Build voice and text chatbots
 - Amazon Personalize ⇒ Allows developers to quickly build and deploy curated recommendations and intelligent user segmentation at scale using machine learning (ML).
-- AWS Rekognition ⇒ Computer Vision
+- AWS Rekognition ⇒ Computer Vision which focuses on enabling computers to identify and understand objects and people in images and videos
 - Amazon **Comprehend** is a natural language processing (NLP) service offered by Amazon Web Services (AWS). This service analyzes text data, making it easy to gain in-depth information about content and use this data in various applications
 - **Amazon Kendra** is a machine learning-powered enterprise search service from AWS. This service allows companies to easily discover their content through natural language searches.
 
