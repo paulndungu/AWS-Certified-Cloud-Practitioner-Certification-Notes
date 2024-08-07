@@ -394,6 +394,8 @@ IAM gives you the flexibility to configure access based on your company’s spec
 - Can detect threats such as identity theft, network attacks and behavioral analysis.
 - Quickly detects potential threats with threat data and behavioral analysis.
 
+![image](https://github.com/user-attachments/assets/e704d342-78ce-40ca-a302-4040773553e0)
+
 
 ## AWS Shield
 
