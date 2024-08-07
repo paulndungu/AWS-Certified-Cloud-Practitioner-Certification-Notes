@@ -851,6 +851,8 @@ to manage daily operations.
 - Can react to events with customizable and automatable responses.
 - Continuously monitors the security status of assets in AWS.
 - Shows the security profile in your AWS environment in a central dashboard.
+![image](https://github.com/user-attachments/assets/a277eced-279b-4eb2-a14d-33ddadd487f1)
+
 
 
 ## AWS Proton
