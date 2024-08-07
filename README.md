@@ -882,7 +882,10 @@ to manage daily operations.
 - Provides secure access to remote EC2 instances, no password or SSH key required.
 - With its configuration management feature, it allows you to protect and maintain the desired configurations.
 - You can get detailed information about the systems with the ability to collect inventory at any time.
+- You can automate the patching of the OS used in an EC2 instance
 - Streamlines automation tasks between Amazon EC2 and on-premises machines.
+
+![image](https://github.com/user-attachments/assets/e0e25524-5a0e-46ff-a7a8-ba9e33d48c73)
 
 
 ## AWS Systems Manager - Parameter Store
