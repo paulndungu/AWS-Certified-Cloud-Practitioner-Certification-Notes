@@ -885,7 +885,7 @@ to manage daily operations.
 - You can automate the patching of the OS used in an EC2 instance
 - Streamlines automation tasks between Amazon EC2 and on-premises machines.
 
-![image](https://github.com/user-attachments/assets/e0e25524-5a0e-46ff-a7a8-ba9e33d48c73)
+![image](https://github.com/user-attachments/assets/93f61c31-7252-4042-a02e-4cdd0b7e9307)
 
 
 ## AWS Systems Manager - Parameter Store
