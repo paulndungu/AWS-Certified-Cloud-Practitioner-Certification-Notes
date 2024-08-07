@@ -716,9 +716,9 @@ AWS Marketplace is a digital catalog that includes thousands of software listing
 
 - Amazon CodeWhisperer ⇒ Get code recommendations while writing code and identify security issues in your code.
 - Amazon Transcribe ⇒ Convert speech to text.
+- Amazon Polly ⇒ Text to Speech
 - Amazon Fraud Detector ⇒ Identify potentially fraudulent online activities.
 - Amazon Lex ⇒ Build voice and text chatbots
-- Amazon Polly ⇒ Text to Speech
 - Amazon Personalize ⇒ Allows developers to quickly build and deploy curated recommendations and intelligent user segmentation at scale using machine learning (ML).
 - AWS Rekognition ⇒ Computer Vision
 - Amazon **Comprehend** is a natural language processing (NLP) service offered by Amazon Web Services (AWS). This service analyzes text data, making it easy to gain in-depth information about content and use this data in various applications
