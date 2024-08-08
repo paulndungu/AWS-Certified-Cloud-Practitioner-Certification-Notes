@@ -686,6 +686,7 @@ AWS Marketplace is a digital catalog that includes thousands of software listing
 - Helps streamline operations and reduce costs.
 
 ## **AWS Snow Family Members**
+  Powerful tool for customers who need to transfer large amounts of data into or out of AWS securely and efficiently
 
 **AWS Snowcone:**
 
