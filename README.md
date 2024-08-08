@@ -686,9 +686,12 @@ AWS Marketplace is a digital catalog that includes thousands of software listing
 - Helps streamline operations and reduce costs.
 
 ## **AWS Snow Family Members**
-  Powerful tool for customers who need to transfer large amounts of data into or out of AWS securely and efficiently
+  Powerful tool for customers who need to transfer large amounts of data into or out of AWS securely and efficiently. The rule of thumb to follow with snow is that if it takes more than a week to transfer data over a network, use snow family devices.
 
 **AWS Snowcone:**
+
+![image](https://github.com/user-attachments/assets/2be878f1-eddf-44ad-8aa6-7aa322908a78)
+
 
 - Small, rugged, and portable edge computing and data transfer device.
 - Designed for collecting, processing, and transporting data from remote or disconnected environments.
@@ -697,6 +700,9 @@ AWS Marketplace is a digital catalog that includes thousands of software listing
 - It features 2 CPUs, 4 GB of memory, and up to 14 TB of usable storage.****
 
 **AWS Snowball:**
+
+![image](https://github.com/user-attachments/assets/73700d16-fceb-4eaa-8fab-4f37cecc20a9)
+
 
 - Data migration and transport device for large amounts of data.
 - Available in two sizes: Snowball and Snowball Edge.
@@ -1015,7 +1021,7 @@ AWS customers are allowed to carry out security assessments and penetration test
 - Amazon CloudFront
 - Amazon Aurora
 - Amazon API Gateways
-- AWS AppSync
+- AWS AppSync- fully managed service that allows you to build scalable GraphQL APIs. It provides a way to query and manipulate data using GraphQL queries and mutations.
 - AWS Lambda and Lambda Edge functions
 - Amazon Lightsail resources
 - Amazon Elastic Beanstalk environments
@@ -1034,17 +1040,23 @@ AWS customers are allowed to carry out security assessments and penetration test
 4. AWS WAF (Web Application Firewall)
 5. AWS Shield
 6. AWS Organizations
-7. AWS Certificate Manager
-8. Amazon WorkSpaces
+7. AWS Certificate Manager- service that lets you easily provision, manage, and deploy SSL/TLS certificates for use with AWS services and your internal connected resources. it is used to secure websites, internal commincations and for IoT Device Security. It features:
+    Automatic certificate provisioning, certificate renewal and certificate renewing 
+    Intergration with various AWS services such as Elastic Load Balancing, Amazon CloudFront, and AWS Elastic Beanstalk
+    ACM can issue both public certificates for securing internet-facing resources and private certificates for securing internal resources.
+9. Amazon WorkSpaces- fully managed, secure Desktop-as-a-Service (DaaS) solution. It allows you to provision Windows or Linux desktops in just a few minutes and quickly scale to provide thousands of desktops to workers across the globe. It is secure with data encrypted both at rest and in transit, easily scalable as you can scale up or down based on the number of users and it intergrates with other services such as AWS Directory Service for user management and Amazon WorkDocs for file storage and sharing. Common use cases:
+    Remote work. Enables employees to access their desktops from anywhere, ensuring business continuity
+    Quickly provision desktops for temporary or seasonal workers without the need for physical hardware.
+    Bring Your Own Device. Provide employees with isolated and scalable environments
 
 ## AWS Zonal Services
 
 1. Amazon EC2
 2. Amazon RDS
 3. Amazon Elastic Block Store (EBS)
-4. Amazon ElastiCache
+4. Amazon ElastiCache- fully managed in-memory data store and cache service that supports Redis (open-source, in-memory data structure store that can be used as a database, cache, and message broker) and Memcached (high-performance, distributed memory object caching system). It improves the performance of web applications by allowing you to retrieve information from fast, managed, in-memory caches instead of relying entirely on slower disk-based databases. It can be automatially scaled depending on demand, higl available due to Redis supporting replication and automatic failover and it is supports backup and recovery with point-in-time recovery.
 5. Amazon VPC
-6. Amazon Redshift
+6. Amazon Redshift- fully managed, petabyte-scale data warehouse service in the cloud. It allows you to run complex queries against structured data using SQL-based tools and business intelligence applications. It is easily scalable as you can scale your Redshift cluster up or down based on your performance and storage needs, it seamlessly intergrates with AWS services such as S3, DynamoDB and Kinesis for data ingestion and processing, it has automated Backups and Restores through snapshots and backups to S3 and it secure as has support for VPC and IAM and performs ecnryption at rest and in transit
 
 ## Decouple From the Data Center  Benefits
 
@@ -1061,19 +1073,25 @@ AWS customers are allowed to carry out security assessments and penetration test
 ## AWS Serverless Services
 
 1. AWS Lambda
-2. Amazon API Gateway
-3. AWS Step Functions
-4. Amazon DynamoDB
-5. Amazon S3
-6. Amazon EventBridge
-7. Amazon SNS (Simple Notification Service)
-8. Amazon SQS (Simple Queue Service)
-9. AWS AppRunner
-10. AWS Fargate (ECS ve EKS için serverless compute seçeneği)
+2. Amazon API Gateway- fully managed service that enables you to create, publish, maintain, monitor, and secure APIs at any scale. It acts as a front door for applications to access data, business logic, or functionality from your backend services. It commonly used for Exposing backend services to the internet, Building serverless applications with AWS Lambda and Creating APIs for mobile and web applications. Key Features:
+    API Creation and Management. You can create RESTful APIs, WebSocket APIs, and HTTP APIs.
+    It automatically scales to handle a large numbers of API requests
+    Supports authentication and authorization through AWS IAM, Lambda authorizers, and Amazon Cognito.
+    Integrates with Amazon CloudWatch for logging and monitoring API performance.
+4. AWS Step Functions- fully managed service that makes it easy to coordinate the components of distributed applications and microservices using visual workflows. Helps you build and orchestrate complex workflows and state machines in a downward step like way. Integrates with AWS services such as AWS Lambda, Amazon S3, Amazon SNS, and more. Its common use cases are Orchestrating microservices and serverless applications, Managing complex workflows and batch processing, and Implementing business processes and data pipelines. Used to perform a sequence/ automate tasks in a specific order
+5. Amazon DynamoDB
+6. Amazon S3
+7. Amazon EventBridge- serverless events (operations and occurences e.g, EC2 carrying out computation tasks) message bus service (similar to topics in SNS and is where messages are published and received by recipient) that makes it easy to connect applications using events. It enables you to build event-driven architectures by routing events between services based on rules. You can route events from various sources to targets such as AWS Lambda, Step Functions, route messages and more. Common use cases are in Building event-driven applications and microservices, Implementing event-driven architectures with decoupled components and Integrating third-party SaaS applications with AWS services.
+8. Amazon SNS (Simple Notification Service)
+9. Amazon SQS (Simple Queue Service)
+10. AWS AppRunner- fully managed service that makes it easy to deploy containerized web applications and APIs at scale. It handles the infrastructure management, scaling, and operations needed to run containerized applications. It has automatic scaling and CI/CD intergration. Commonly used to Deploy web applications and APIs without managing servers, run containerized applications with automatic scaling and load balancing.
+Building modern applications with continuous integration and deployment.
+11. AWS Fargate- serverless compute engine for containers that works with Amazon ECS and Amazon EKS. It allows you to run containers without managing the underlying server infrastructure. It has automatic scaling. Commonly used for Running microservices and containerized applications without managing infrastructure, Implementing batch processing and data pipelines with containers and Running scalable and highly available containerized workloads.
 
-![image](https://github.com/user-attachments/assets/737529d9-13ec-4bfb-b89a-e5b5285f3fe0)
 
 ## AWS CodeCommit
+
+![image](https://github.com/user-attachments/assets/737529d9-13ec-4bfb-b89a-e5b5285f3fe0)
 
 - Private Git based repository service.
 - Provides secure and high-scale code storage.
@@ -1750,3 +1768,6 @@ Amazon Quantum Ledger Database (Amazon QLDB) is a fully managed ledger database 
 ## Amazon Timestream
 
 Amazon Timestream is a fast, scalable, and serverless time series database service for IoT and operational applications that makes it easy to store and analyze trillions of events per day up to 1,000 times faster and at as little as 1/10th the cost of relational databases. Amazon Timestream saves you time and costs in managing the lifecycle of time series data by keeping recent data in memory and moving historical data to a cost-optimized storage tier based upon user-defined policies.
+
+
+-When a service is said to be fully managed it means that it handles routine administrative tasks such as setup, configuration, patching, and backups.
