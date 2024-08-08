@@ -813,6 +813,7 @@ to manage daily operations.
 4. Technical Consultancy
 5. Education and Learning
 6. Access to Advanced Tools
+7. AWS concierge (resource dedicated to a answering billing and account questions) is provided
 
 
 ## AWS Config
