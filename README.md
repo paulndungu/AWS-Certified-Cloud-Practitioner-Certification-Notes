@@ -1783,36 +1783,32 @@ Amazon Quantum Ledger Database (Amazon QLDB) is a fully managed ledger database 
 Amazon Timestream is a fast, scalable, and serverless time series database service for IoT and operational applications that makes it easy to store and analyze trillions of events per day up to 1,000 times faster and at as little as 1/10th the cost of relational databases. Amazon Timestream saves you time and costs in managing the lifecycle of time series data by keeping recent data in memory and moving historical data to a cost-optimized storage tier based upon user-defined policies.
 
 
-##Extra Notes
+## Extra Notes
 
 -When a service is said to be fully managed it means that it handles routine administrative tasks such as setup, configuration, patching, and backups.
 
 -AWS provides several services that allow you to extend your on-premises architecture to the AWS Cloud. These services help integrate on-premises resources with AWS, enabling hybrid cloud architectures. Key services include:
 
-    **AWS Direct Connect**:
+    AWS Direct Connect:
    - **Description**: AWS Direct Connect provides a dedicated network connection from your premises to AWS. It helps establish a private, low-latency connection between your data centers and AWS, which can reduce network costs and increase bandwidth throughput.
    - **Use Case**: Suitable for enterprises that need consistent, high-speed, and secure connectivity to AWS.
 
-    **AWS VPN**:
+    AWS VPN:
    - **Description**: AWS VPN enables you to establish a secure and encrypted connection between your on-premises network or a user's device and the AWS cloud. It consists of two services: AWS Site-to-Site VPN and AWS Client VPN.
    - **Use Case**: Ideal for extending your on-premises network to AWS securely and cost-effectively, or providing remote access to your AWS resources.
 
-3. **AWS Storage Gateway**:
+    AWS Storage Gateway:
    - **Description**: AWS Storage Gateway is a hybrid cloud storage service that enables your on-premises applications to seamlessly use AWS cloud storage. It supports three types of gateways: File Gateway, Tape Gateway, and Volume Gateway.
    - **Use Case**: Useful for extending on-premises storage to the cloud, archiving data, and providing scalable storage solutions.
 
-4. **AWS Outposts**:
+    AWS Outposts:
    - **Description**: AWS Outposts delivers fully managed and configurable compute and storage racks built with AWS-designed hardware to bring AWS services, infrastructure, and operating models to virtually any data center, co-location space, or on-premises facility.
    - **Use Case**: Perfect for workloads that require low latency access to on-premises systems, local data processing, or data residency requirements.
 
-5. **AWS Snow Family (Snowball, Snowcone, Snowmobile)**:
+    AWS Snow Family (Snowball, Snowcone, Snowmobile):
    - **Description**: The AWS Snow Family helps physically transfer large amounts of data between your on-premises data centers and AWS. The devices are rugged and secure, designed to withstand transport.
    - **Use Case**: Best for data migration projects, disaster recovery, and edge computing needs when transferring large datasets or when internet transfer is not feasible.
 
-6. **Amazon RDS on VMware**:
+    Amazon RDS on VMware:
    - **Description**: Amazon RDS on VMware allows you to run managed databases in on-premises VMware environments using the Amazon RDS technology. It automates database administration tasks like backups, patching, monitoring, and scaling.
    - **Use Case**: Suitable for extending managed database capabilities to your on-premises VMware environments.
-
-### Summary:
-
-These services collectively enable organizations to create seamless hybrid cloud architectures, leveraging AWS for scalability, flexibility, and cost efficiency while maintaining the necessary control and integration with on-premises systems.
