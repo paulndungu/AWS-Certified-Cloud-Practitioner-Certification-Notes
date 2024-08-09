@@ -1784,9 +1784,9 @@ Amazon Timestream is a fast, scalable, and serverless time series database servi
 
 
 
-- When a service is said to be fully managed it means that it handles routine administrative tasks such as setup, configuration, patching, and backups.
+## When a service is said to be fully managed it means that it handles routine administrative tasks such as setup, configuration, patching, and backups.
 
-- AWS provides several services that allow you to extend your on-premises architecture to the AWS Cloud. These services help integrate on-premises resources with AWS, enabling hybrid cloud architectures. Key services include:
+## AWS provides several services that allow you to extend your on-premises architecture to the AWS Cloud. These services help integrate on-premises resources with AWS, enabling hybrid cloud architectures. Key services include:
 
 1. **AWS Direct Connect**:
    - **Description**: AWS Direct Connect provides a dedicated network connection from your premises to AWS. It helps establish a private, low-latency connection between your data centers and AWS, which can reduce network costs and increase bandwidth throughput.
