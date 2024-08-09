@@ -61,7 +61,7 @@
 
 ## AWS EC2 Instance Store
 
-An *instance store* provides temporary block-level storage for your instance. This storage is located on disks that are physically attached to the host computer. Instance store is ideal for temporary storage of information that changes frequently, such as buffers, caches, scratch data, and other temporary content. It can also be used to store temporary data that you replicate across a fleet of instances, such as a load-balanced pool of web servers.
+Provides temporary block-level storage for your EC2 instances. This storage is located on disks that are physically attached to the host computer. Instance store is ideal for temporary storage of information that changes frequently, such as buffers, caches, scratch data, and other temporary content. It can also be used to store temporary data that you replicate across a fleet of instances, such as a load-balanced pool of web servers. While it can be used for high-speed storage, it is not specifically optimized for caching
 
 
 ## Amazon EC2 Pricing
@@ -206,7 +206,7 @@ An *instance store* provides temporary block-level storage for your instance. 
 
 ## Amazon Elastic File System (EFS)
 
-- It is a scalable and easy to manage file storage service on AWS.
+- Fully managed, scalable, and highly available file storage service designed to be used with AWS Cloud services and on-premises resources
 - Can be shared simultaneously by multiple EC2 instances, making it suitable for multi-server workloads.
 - It is elastic and the storage capacity automatically increases or decreases according to your files.
 - It has high durability and usability; files are automatically replicated across multiple Availability Zones.
@@ -1083,7 +1083,7 @@ AWS customers are allowed to carry out security assessments and penetration test
 6. Amazon S3
 7. Amazon EventBridge- serverless events (operations and occurences e.g, EC2 carrying out computation tasks) message bus service (similar to topics in SNS and is where messages are published and received by recipient) that makes it easy to connect applications using events. It enables you to build event-driven architectures by routing events between services based on rules. You can route events from various sources to targets such as AWS Lambda, Step Functions, route messages and more. Common use cases are in Building event-driven applications and microservices, Implementing event-driven architectures with decoupled components and Integrating third-party SaaS applications with AWS services.
 8. Amazon SNS (Simple Notification Service)
-9. Amazon SQS (Simple Queue Service)
+9. Amazon SQS (Simple Queue Service)- message queuing service that enables decoupling and scaling of microservices, distributed systems, and serverless applications. It is not designed for caching data.
 10. AWS AppRunner- fully managed service that makes it easy to deploy containerized web applications and APIs at scale. It handles the infrastructure management, scaling, and operations needed to run containerized applications. It has automatic scaling and CI/CD intergration. Commonly used to Deploy web applications and APIs without managing servers, run containerized applications with automatic scaling and load balancing.
 Building modern applications with continuous integration and deployment.
 11. AWS Fargate- serverless compute engine for containers that works with Amazon ECS and Amazon EKS. It allows you to run containers without managing the underlying server infrastructure. It has automatic scaling. Commonly used for Running microservices and containerized applications without managing infrastructure, Implementing batch processing and data pipelines with containers and Running scalable and highly available containerized workloads.
