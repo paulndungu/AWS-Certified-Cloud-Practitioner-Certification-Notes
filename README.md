@@ -1089,6 +1089,8 @@ Building modern applications with continuous integration and deployment.
 11. AWS Fargate- serverless compute engine for containers that works with Amazon ECS and Amazon EKS. It allows you to run containers without managing the underlying server infrastructure. It has automatic scaling. Commonly used for Running microservices and containerized applications without managing infrastructure, Implementing batch processing and data pipelines with containers and Running scalable and highly available containerized workloads.
 
 
+![image](https://github.com/user-attachments/assets/f12edfb9-bb6d-4563-a60a-a63589612386)
+![image](https://github.com/user-attachments/assets/c02ae2a1-fd0c-470b-9910-5125b3aab168)
 ## AWS CodeCommit
 
 ![image](https://github.com/user-attachments/assets/737529d9-13ec-4bfb-b89a-e5b5285f3fe0)
@@ -1147,6 +1149,11 @@ Building modern applications with continuous integration and deployment.
 3. Used to optimize data storage costs.
 4. Can automatically move items from standard S3 storage to Glacier or a cheaper storage class.
 5. It frees up storage space by automatically deleting objects after a certain period of time.
+6. Difference between Amazon S3 Lifecycle Policy and S3 Intelligent-Tiering:
+
+![image](https://github.com/user-attachments/assets/fb98db58-9865-437f-b34e-321156c68a33)
+
+
 
 ## **AWS Storage Gateway**
 
@@ -1156,9 +1163,15 @@ Building modern applications with continuous integration and deployment.
 4. It is used in scenarios such as backup, archiving and data analysis.
 5. Provides access to stored data with low latency.
 
+## **AWS DataSync **
+
+1. Its a fully managed service that simplifies, automates, and accelerates the process of moving data between on-premises storage and AWS storage services.
+2. Automates the transfer of data between on-premises storage and AWS services like Amazon S3, Amazon EFS, and Amazon FSx
+
+
 ## **AWS Transfer Family**
 
-1. It is a fully managed service for file transfer operations.
+1. Its a fully managed service that enables secure file transfers into and out of AWS storage services like Amazon S3 and Amazon EFS.
 2. Supports Secure File Transfer Protocol (SFTP), File Transfer Protocol over SSL (FTPS) and File Transfer Protocol (FTP).
 3. Provides integration with AWS scalable storage services.
 4. It offers integration with AWS Identity and Access Management (IAM) for authentication.
