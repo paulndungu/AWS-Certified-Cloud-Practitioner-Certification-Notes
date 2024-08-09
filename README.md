@@ -1783,16 +1783,17 @@ Amazon Quantum Ledger Database (Amazon QLDB) is a fully managed ledger database 
 Amazon Timestream is a fast, scalable, and serverless time series database service for IoT and operational applications that makes it easy to store and analyze trillions of events per day up to 1,000 times faster and at as little as 1/10th the cost of relational databases. Amazon Timestream saves you time and costs in managing the lifecycle of time series data by keeping recent data in memory and moving historical data to a cost-optimized storage tier based upon user-defined policies.
 
 
+##Extra Notes
 
-When a service is said to be fully managed it means that it handles routine administrative tasks such as setup, configuration, patching, and backups.
+-When a service is said to be fully managed it means that it handles routine administrative tasks such as setup, configuration, patching, and backups.
 
-AWS provides several services that allow you to extend your on-premises architecture to the AWS Cloud. These services help integrate on-premises resources with AWS, enabling hybrid cloud architectures. Key services include:
+-AWS provides several services that allow you to extend your on-premises architecture to the AWS Cloud. These services help integrate on-premises resources with AWS, enabling hybrid cloud architectures. Key services include:
 
- **AWS Direct Connect**:
+    **AWS Direct Connect**:
    - **Description**: AWS Direct Connect provides a dedicated network connection from your premises to AWS. It helps establish a private, low-latency connection between your data centers and AWS, which can reduce network costs and increase bandwidth throughput.
    - **Use Case**: Suitable for enterprises that need consistent, high-speed, and secure connectivity to AWS.
 
-2. **AWS VPN**:
+    **AWS VPN**:
    - **Description**: AWS VPN enables you to establish a secure and encrypted connection between your on-premises network or a user's device and the AWS cloud. It consists of two services: AWS Site-to-Site VPN and AWS Client VPN.
    - **Use Case**: Ideal for extending your on-premises network to AWS securely and cost-effectively, or providing remote access to your AWS resources.
 
