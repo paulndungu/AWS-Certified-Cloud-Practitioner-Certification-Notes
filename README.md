@@ -1218,14 +1218,14 @@ Building modern applications with continuous integration and deployment.
 
 ## **AWS Glue**
 
-- AWS Glue is a fully managed service for performing ETL (Extract, Transform, Load) operations in the cloud.
+- AWS Glue is a serverless, fully managed service for simplifying the process of discovering, preparing, and integrating data from various sources for analytics, machine learning, and application development. Basically performing ETL (Extract, Transform, Load) operations in the cloud.
 - It has the ability to automatically discover data sources and create data catalogs.
 - Provides direct integration with popular data stores, thus facilitating data mobility.
 - It has a serverless structure and does not require any extra effort in scaling and server management.
 
 ## **AWS Macie**
 
-- AWS Macie is the security service used to automatically discover and classify sensitive information in data stored on AWS.
+- Data security service that uses machine learning and pattern matching to help you automatically discover, classify, and protect sensitive data stored in Amazon S3.
 - Helps meet requirements such as compliance with personal data protection regulations.
 - Powered by machine learning, this service provides insights into data at risk.
 - It has the ability to identify suspicious or risky activities by analyzing user activities and API calls.
