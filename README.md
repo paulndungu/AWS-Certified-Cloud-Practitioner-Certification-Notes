@@ -1250,6 +1250,15 @@ Building modern applications with continuous integration and deployment.
 - It can connect thousands of VPCs and on-premises networks through a single gateway, thus it has advanced security and routing features such as monitoring traffic on your network connections and defining routing policies.
 - Provides a simple and scalable solution for managing large numbers of VPCs and network connections in your organization.
 
+
+## **AWS Gateways**
+![image](https://github.com/user-attachments/assets/331593ce-efcb-4e84-aba4-6cfff893df31)
+
+![image](https://github.com/user-attachments/assets/6461a74a-3be6-4327-b8f0-e2e8f6de5455)
+
+![image](https://github.com/user-attachments/assets/6d55623c-5e30-4b66-baa4-eb362d1beae9)
+
+
 ## **AWS Pinpoint**
 
 - AWS Pinpoint is a service designed to improve user interaction and communication; It analyzes users' in-app activities and helps you create targeted campaigns.
