@@ -1559,6 +1559,8 @@ Amazon FSx is one of AWS's file-based storage services.
 - Control access to AWS services.
 
 ## VPC Endpoint
+![image](https://github.com/user-attachments/assets/2c6cb74b-8cdb-45cd-9439-967560c95f86)
+
 
 AWS VPC (Virtual Private Cloud) Endpoint is a feature that provides a private connection to AWS services and VPC private resources directly from your VPC. This ensures that your access to AWS services is through Amazon's private network and not over the internet.
 
