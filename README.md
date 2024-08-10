@@ -1239,8 +1239,8 @@ Building modern applications with continuous integration and deployment.
 
 ## **AWS OpsWorks**
 
-- AWS OpsWorks is an application management service for configuration management platforms such as Chef and Puppet.
-- It allows you to create automatic procedures to scale and back up your applications and ensure inter-application coordination.
+- Configuration management service that helps you set up, deploy, and manage applications in the cloud or on-premises. It uses Chef and Puppet to automate how servers are configured, deployed, and managed across your Amazon EC2 instances or on-premises compute environments.
+- Start by creating a stack (collections of resources that you want to manage together. Think of a stack as the entire infrastructure for a specific application) in the OpsWorks console to contain all the resources needed for your application then add layers (different components of your application, such as a web server or application server and each layer can have its own configuration and set of instances) to your stack to represent different parts of your application and then add instances to run the software defined in your layers. Finally, deploy your applications to the instances in your layers. OpsWorks uses Chef recipes or Puppet manifests to automate the deployment process.
 - Allows you to define how software will be installed, configured, and how tasks will be managed based on specific lifecycle events.
 - The service is particularly suitable for those who want to automate configuration, management and deployment for complex application architectures.
 
