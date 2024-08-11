@@ -1870,3 +1870,65 @@ Amazon Timestream is a fast, scalable, and serverless time series database servi
    - **AWS KMS (Key Management Service)**: A managed service that makes it easy to create and control the encryption keys used to encrypt your data.
    - **AWS CloudHSM**: A cloud-based hardware security module (HSM) that enables you to generate and use your own encryption keys.
    - **AWS Identity and Access Management (IAM)**: A service that helps you securely control access to AWS services and resources.
+
+
+- AWS provides several support plans tailored to different levels of service needs, each offering varying degrees of access to AWS support teams. Below are the main AWS support plans and the types of teams that support them:
+    1. Basic Support Plan
+Teams Supported:
+
+AWS Community Support: Access to a vast network of AWS customers and partners who share tips and best practices via forums and other online communities.
+AWS Trusted Advisor: Basic checks are available to all customers, but the level of support is minimal.
+AWS Personal Health Dashboard: Provides alerts and guidance for events that may impact your infrastructure.
+Features:
+
+24/7 access to customer service, documentation, whitepapers, and AWS Trusted Advisor's core checks.
+Support through the AWS Knowledge Center.
+No technical support from AWS Support Engineers.
+Best For: Individual developers or businesses getting started with AWS.
+
+2. Developer Support Plan
+Teams Supported:
+
+AWS Support Engineers: Limited access to cloud support associates via email during business hours with response times of 12 hours or less for general guidance and 24 hours for system impairment.
+AWS Trusted Advisor: Full access to AWS Trusted Advisor's best practice checks and recommendations.
+AWS Personal Health Dashboard: Provides real-time alerts and support for events that impact your infrastructure.
+Features:
+
+Technical support from AWS Cloud Support Associates during business hours.
+General architectural guidance and best practices.
+Access to AWS Support API for automated support case management.
+Best For: Developers experimenting with or testing AWS services in non-production environments.
+
+3. Business Support Plan
+Teams Supported:
+
+AWS Support Engineers: 24/7 access to AWS Support Engineers via phone, chat, and email for fast response times (less than 1 hour for production system issues).
+AWS Solutions Architects: Provides guidance on how to use AWS products and features to meet your specific needs.
+AWS Trusted Advisor: Full access to Trusted Advisor checks, including cost optimization, security, fault tolerance, and performance.
+AWS Personal Health Dashboard: Real-time proactive guidance and notifications.
+Features:
+
+24/7 technical support for all issues.
+Contextual guidance from AWS Solutions Architects.
+Support for third-party software integration.
+Best practice recommendations and architectural guidance.
+Best For: Businesses with production workloads on AWS requiring technical support and architectural guidance.
+
+4. Enterprise Support Plan
+Teams Supported:
+
+AWS Support Engineers: 24/7 access to AWS Support Engineers with the fastest response times (less than 15 minutes for critical business system issues).
+AWS Technical Account Manager (TAM): A dedicated Technical Account Manager who provides proactive guidance and expertise, including regular reviews and reports.
+AWS Solutions Architects: In-depth architectural guidance and best practice recommendations tailored to your business.
+AWS Infrastructure Event Management: Support for launching new applications or migrating workloads to AWS, with focused guidance from AWS experts.
+AWS Concierge Support: Assistance with account and billing questions.
+AWS Trusted Advisor: Full access to Trusted Advisor checks and recommendations.
+Features:
+
+24/7 access to technical support with the fastest response times.
+Dedicated TAM who acts as your primary point of contact with AWS.
+Strategic business reviews and event management.
+Hands-on architectural and operational guidance.
+Best For: Large enterprises and organizations with mission-critical workloads that require comprehensive support and dedicated resources.
+
+![image](https://github.com/user-attachments/assets/ef735622-012b-4b34-b89b-9751ad58f1a2)
