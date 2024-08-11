@@ -1866,10 +1866,7 @@ Amazon Timestream is a fast, scalable, and serverless time series database servi
    - **Amazon Polly**: A service that turns text into lifelike speech.
    - **Amazon Textract**: A service that automatically extracts text, handwriting, and data from scanned documents.
 
-    6.Data Security and Governance
+    Data Security and Governance
    - **AWS KMS (Key Management Service)**: A managed service that makes it easy to create and control the encryption keys used to encrypt your data.
    - **AWS CloudHSM**: A cloud-based hardware security module (HSM) that enables you to generate and use your own encryption keys.
    - **AWS Identity and Access Management (IAM)**: A service that helps you securely control access to AWS services and resources.
-
-    Summary
-AWS provides a comprehensive set of data services that cater to various needs, from database management and data storage to real-time analytics, machine learning, and data migration. These services enable organizations to build, deploy, and manage data-driven applications at scale.
