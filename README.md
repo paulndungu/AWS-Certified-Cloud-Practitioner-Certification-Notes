@@ -1827,7 +1827,7 @@ Amazon Timestream is a fast, scalable, and serverless time series database servi
 - AWS data services 
 -They cater to various needs, including data storage, databases, analytics, migration, and machine learning. Here’s an overview of some key AWS data services:
 
-    1.Databases
+            Databases
    - **Amazon RDS (Relational Database Service)**: A managed relational database service that supports various database engines like MySQL, PostgreSQL, MariaDB, Oracle, SQL Server, and Amazon Aurora.
    - **Amazon Aurora**: A MySQL and PostgreSQL-compatible relational database designed for performance and availability.
    - **Amazon DynamoDB**: A fully managed NoSQL database service that provides fast and predictable performance with seamless scalability.
@@ -1838,14 +1838,14 @@ Amazon Timestream is a fast, scalable, and serverless time series database servi
    - **Amazon QLDB (Quantum Ledger Database)**: A fully managed ledger database that provides a transparent, immutable, and cryptographically verifiable transaction log.
    - **Amazon ElastiCache**: A fully managed in-memory data store and cache service, supporting Redis and Memcached.
 
-    2.Data Storage
+            Data Storage
    - **Amazon S3 (Simple Storage Service)**: Object storage service that offers industry-leading scalability, data availability, security, and performance.
    - **Amazon EFS (Elastic File System)**: A scalable and fully managed file storage service that is elastic, so it can grow and shrink automatically as you add and remove files.
    - **Amazon FSx**: Managed file systems built on popular file systems like Windows File Server (FSx for Windows) and Lustre (FSx for Lustre).
    - **Amazon Glacier**: A secure, durable, and extremely low-cost cloud storage service for data archiving and long-term backup.
    - **AWS Backup**: A centralized backup service to automate and manage backups across AWS services.
 
-    3.Data Analytics
+            Data Analytics
    - **Amazon EMR (Elastic MapReduce)**: A cloud big data platform for running large-scale data processing frameworks such as Apache Hadoop, Spark, HBase, and Presto.
    - **Amazon Kinesis**: A platform for real-time data streaming and analytics, enabling you to collect, process, and analyze streaming data.
    - **AWS Glue**: A fully managed ETL (extract, transform, load) service that makes it easy to prepare and load data for analytics.
@@ -1854,12 +1854,12 @@ Amazon Timestream is a fast, scalable, and serverless time series database servi
    - **AWS Lake Formation**: A service to set up a secure data lake in days, allowing you to store, catalog, and analyze all your data in one central location.
    - **Amazon OpenSearch Service**: A managed service that makes it easy to deploy, operate, and scale OpenSearch (formerly Elasticsearch) clusters for log analytics, full-text search, application monitoring, and more.
 
-    4.Data Migration
+            Data Migration
    - **AWS Database Migration Service (DMS)**: Helps you migrate databases to AWS quickly and securely. The source database remains operational during the migration.
    - **AWS Snow Family**: A collection of physical devices used to move large amounts of data to and from AWS, including Snowcone, Snowball, and Snowmobile.
    - **AWS DataSync**: An online data transfer service that automates moving data between on-premises storage and AWS storage services.
 
-    5.Machine Learning and AI Data Services
+            Machine Learning and AI Data Services
    - **Amazon SageMaker**: A fully managed service that provides every developer and data scientist with the ability to build, train, and deploy machine learning models quickly.
    - **Amazon Comprehend**: A natural language processing (NLP) service that uses machine learning to find insights and relationships in text.
    - **Amazon Rekognition**: A service that makes it easy to add image and video analysis to your applications.
