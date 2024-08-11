@@ -1268,10 +1268,10 @@ Building modern applications with continuous integration and deployment.
 
 ## **AWS Secrets Manager**
 
-1. Enables applications, automated processes, and other AWS services to securely access confidential information.
-2. Provides a simple and automated way to return, manage and retrieve confidential information.
-3. It has the capacity to store sensitive data such as passwords and API keys for integration into AWS services or databases.
-4. Thanks to integration with AWS KMS (Key Management Service), confidential information is protected with strong encryption.
+1. Service designed to help you manage, retrieve, and rotate secrets such as database credentials, API keys, and other sensitive information
+2. Securely stores your secrets using encryption keys managed by AWS Key Management Service (KMS) where they are encrypted at rest and in transit.
+3. You can monitor the usage of secrets and receive alerts for any suspicious activity through intergrating with AWS CloudTrail to log all API calls, providing a detailed audit trail.
+4. Periodically updating the credentials or sensitive information stored in a secret
 
 ## **AWS Service Catalog**
 
@@ -1289,12 +1289,12 @@ Building modern applications with continuous integration and deployment.
 
 ## **AWS CloudHSM**
 
-1. It is a service to keep hardware-based crypto keys safe.
-2. Used to meet compliance requirements (FIPS 140-2 level 3 compliant).
-3. Offers customers a private, isolated HSM access.
-4. Provides the ability to integrate with AWS services (e.g. Amazon RDS, Amazon S3).
-
-CloudHSM is designed for applications with high performance and security requirements, especially for cryptographic operations.
+1. Cloud-based hardware security module that allows you to generate and use your own encryption keys on AWS
+2. You have full control over your HSMs, including the ability to generate, store, import, export, and manage cryptographic keys. This includes session keys, token keys, symmetric keys, and asymmetric key pairs.
+3. AWS CloudHSM uses single-tenant HSMs that are FIPS 140-2 Level 3 validated, ensuring a high level of security for your cryptographic operations and meeting of regulatory and compliance requirements by providing a secure environment for key management and cryptographic operations
+4. Offers customers a private, isolated HSM access.
+5. You can monitor and manage your HSMs using AWS CloudTrail, Amazon CloudWatch, and other AWS management tools
+6.  Ideal for managing encryption keys for applications that require high security and compliance, performing cryptographic operations such as encryption, decryption, and digital signing and meeting of regulatory requirements for data protection and key management
 
 ## **AWS Key Management Service (KMS)**
 
@@ -1560,7 +1560,6 @@ Amazon FSx is one of AWS's file-based storage services.
 
 ## VPC Endpoint
 ![image](https://github.com/user-attachments/assets/2c6cb74b-8cdb-45cd-9439-967560c95f86)
-
 
 AWS VPC (Virtual Private Cloud) Endpoint is a feature that provides a private connection to AWS services and VPC private resources directly from your VPC. This ensures that your access to AWS services is through Amazon's private network and not over the internet.
 
