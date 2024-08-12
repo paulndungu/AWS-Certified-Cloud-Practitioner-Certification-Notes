@@ -1473,10 +1473,7 @@ The Distribution Path is for organizations that recruit, onboard, and support th
 
 ## AWS Global Accelerator
 
-1. Amazon Global Accelerator is a service offered by AWS to optimize the internet traffic of your applications and provide faster and more reliable access to users.
-2. Speeds up connections to applications by routing traffic through AWS's global network infrastructure.
-3. Provides access to resources in different AWS regions via a single instant IP address.
-4. AWS Global Accelerator provides static IP addresses that act as a fixed entry point to your applications
+1. Networking service that improves the availability and performance of your applications by directing traffic through the global AWS network infrastructure through static IP addresses that act as a fixed entry point to your application endpoints, such as Amazon EC2 instances, load balancers, or Amazon S3 buckets, across multiple AWS regions. Global Accelerator automatically routes traffic to the optimal endpoint based on health, geography, and routing policies, helping to minimize latency and maximize availability
 5. AWS Global Accelerator is a good fit for non-HTTP use cases
 
 ## AWS DataPipeline
@@ -1946,5 +1943,5 @@ Best For: Large enterprises and organizations with mission-critical workloads th
 
 ![image](https://github.com/user-attachments/assets/c0aba701-e362-4ddb-903e-701b27f0eddd)
 
-  
 
+- Route 53can perform global load balancing
