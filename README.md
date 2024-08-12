@@ -1333,7 +1333,9 @@ Building modern applications with continuous integration and deployment.
 
 ## AWS Health Dashboard
 
-- A personalized View of Service Health
+- Comprehensive tool designed to provide real-time alerts and insights into the health of your AWS environment
+- It comes in two main components: the AWS Health Dashboard and the AWS Personal Health Dashboard.
+- Provides a global view of the health of AWS services and shows current and historical information about the status of AWS services in all regions. It is accessible to all AWS customers and includes both the Service Health Dashboard and Personal Health Dashboard.
 - Proactive Notifications
 - Detailed Troubleshooting Guidance
 
@@ -1355,17 +1357,17 @@ Building modern applications with continuous integration and deployment.
 
 1. Amazon EC2 (Elastic Compute Cloud)
 2. AWS Lambda
-3. AWS Elastic Beanstalk
+3. AWS Elastic Beanstalk- fully managed service that makes it easy for developers to deploy and manage applications in the AWS Cloud without worrying about the underlying infrastructure. Elastic Beanstalk handles the deployment, scaling, monitoring, and load balancing of your applications automatically, allowing you to focus on writing code
 4. Amazon EC2 Auto Scaling
 5. Amazon Lightsail
 6. AWS Batch
-7. AWS Fargate
+7. AWS Fargate- serverless compute engine for containers that works with both Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes Service (EKS). It allows you to run containers without needing to manage the underlying infrastructure. With Fargate, you focus on building and running applications while AWS manages the compute resources.
 8. AWS Outposts
 9. AWS ECS
 10. AWS Serverless Application Repository
-11. AWS Wavelength
+11. AWS Wavelength- designed to bring AWS compute and storage services to the edge of the 5G network, closer to end-users and devices. This allows developers to build applications that require ultra-low latency by deploying them within the telecommunication providers' data centers at the edge of the 5G network.
 12. AWS Local Zones
-13. EC2 Image Builder
+13. EC2 Image Builder- simplifies the creation, maintenance, and deployment of customized and secure Amazon Machine Images (AMIs) for Amazon EC2 instances. It automates the process of building, testing, and distributing AMIs, ensuring that they are up-to-date, compliant, and configured according to your specifications.
 
 ## CapEx - OpEx
 
@@ -1451,21 +1453,23 @@ The Distribution Path is for organizations that recruit, onboard, and support th
 
 ## Amazon AppStream 2.0
 
-1. Amazon AppStream 2.0 is an AWS service used to publish applications on the cloud and provide access to users through their browsers.
-2. This service allows users to use applications from different devices without the need to install any software.
-3. Thanks to the scalability offered, it offers seamless performance to many users at the same time.
+1. Fully managed, secure application streaming service that allows you to stream desktop applications to users without requiring the applications to be installed on their local devices. This service enables users to access applications from any location and on any device, including Windows, macOS, Chromebooks, and Linux devices, by streaming the applications from the AWS cloud.
+2. Amazon AppStream 2.0 is an AWS service used to publish applications on the cloud and provide access to users through their browsers.
+3. It is ideal for organizations looking to support remote work, deliver software as a service, or provide access to specialized applications without the need for local installation
+4. This service allows users to use applications from different devices without the need to install any software.
+5. Thanks to the scalability offered, it offers seamless performance to many users at the same time.
 
 ## Amazon WorkSpaces
 
-1. Amazon WorkSpaces is an AWS service that offers virtual desktops in the cloud.
+1. Fully managed, secure Desktop-as-a-Service (DaaS) solution. It allows you to provision Windows or Linux desktops in just a few minutes and quickly scale to provide thousands of desktops to workers across the globe. It is secure with data encrypted both at rest and in transit, easily scalable as you can scale up or down based on the number of users and it intergrates with other services such as AWS Directory Service for user management and Amazon WorkDocs for file storage and sharing..
 2. Users can access these virtual desktops securely from any device.
 3. It is used for businesses to manage and scale employees' computers in a centralized and secure manner.
 
 ## Amazon QuickSight
 
-1. Amazon QuickSight is a fully managed, scalable business intelligence (BI) service.
-2. It allows users to analyze data and create visualizations on the cloud.
-3. It has the ability to connect quickly and directly to many data sources.
+1. Cloud-based business intelligence (BI) service that enables you to visualize your data, perform analysis, and generate insights quickly and easily. It allows you to create and share interactive dashboards, reports, and visualizations, helping you make data-driven decisions. QuickSight is fully managed by AWS, meaning you don’t need to manage any infrastructure, and it can scale automatically to accommodate any number of users
+2. QuickSight can connect to a wide range of data sources, including AWS services like Amazon S3, RDS, Redshift, and Athena, as well as on-premises databases, SaaS applications, and other third-party data sources.
+3. Dashboards and reports created in QuickSight can be easily shared with others, either within your organization or with external stakeholders. You can set up permissions to control who can view or edit the content
 
 ## AWS Global Accelerator
 
@@ -1932,3 +1936,11 @@ Hands-on architectural and operational guidance.
 Best For: Large enterprises and organizations with mission-critical workloads that require comprehensive support and dedicated resources.
 
 ![image](https://github.com/user-attachments/assets/ef735622-012b-4b34-b89b-9751ad58f1a2)
+
+- AWS cost allocation tags
+![image](https://github.com/user-attachments/assets/e5b6b931-c297-4b68-9e81-13324aadb9c9)
+![image](https://github.com/user-attachments/assets/299b7412-adbc-4208-9fda-7d3e36803b59)
+![image](https://github.com/user-attachments/assets/c0aba701-e362-4ddb-903e-701b27f0eddd)
+
+  
+
