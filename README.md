@@ -1478,7 +1478,7 @@ The Distribution Path is for organizations that recruit, onboard, and support th
 
 ## AWS DataPipeline
 
-1. Amazon Data Pipeline is a web service that automates data movement and transformation tasks between different AWS services and on-premises data sources.
+1. Amazon Data Pipeline is a web service designed to automate the movement and transformation of data.
 2. This service has the ability to plan and manage data movement and transformation at regular intervals.
 3. Users can define data processing workflows and automatically run these workflows at specific time intervals.
 
@@ -1490,9 +1490,9 @@ The Distribution Path is for organizations that recruit, onboard, and support th
 
 ## **Amazon Detective**
 
-- A service that provides AWS users with a deeper understanding of security incidents and threats.
-- Used to investigate events and attacks by analyzing data from sources such as AWS CloudTrail and VPC Flow Logs.
-- Makes it easier to understand potential security issues by providing visualizations, graphs, and analysis.
+- Managed security service provided by AWS that helps you analyze, investigate, and quickly identify the root cause of potential security issues or suspicious activities within your AWS environment. It automatically collects and organizes data from various AWS sources, making it easier for security teams to conduct thorough investigations without the need for manual data collection or complex queries.
+- Amazon Detective automatically ingests data from various AWS services, such as AWS CloudTrail logs, Amazon VPC Flow Logs, and AWS GuardDuty findings.
+- Detective integrates with other AWS security services like AWS GuardDuty, AWS Security Hub, and Amazon Macie. GuardDuty findings can be directly investigated within Detective, allowing for seamless transitions between detection and investigation
 
 ## **AWS Directory Service**
 
@@ -1525,7 +1525,7 @@ The Distribution Path is for organizations that recruit, onboard, and support th
 
 ##AmazonFSx
 
-Amazon FSx is one of AWS's file-based storage services.
+Amazon FSx is a fully managed service by AWS that provides file storage for workloads that require high-performance and scalable storage. Amazon FSx offers different types of file systems optimized for various use cases.
 
 1. **Amazon FSx for Windows File Server**:
      - **Windows File Systems**: It is a fully managed, scalable and Windows compatible file storage service.
@@ -1944,4 +1944,5 @@ Best For: Large enterprises and organizations with mission-critical workloads th
 ![image](https://github.com/user-attachments/assets/c0aba701-e362-4ddb-903e-701b27f0eddd)
 
 
-- Route 53can perform global load balancing
+- Route 53 can perform global load balancing
+- AWS Snowball can secure transfer of large amounts of data into and out of the AWS. Its 2 way not only into AWS
